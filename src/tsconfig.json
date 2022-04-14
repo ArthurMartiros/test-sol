@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "../out",
+        "module": "commonjs",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "declaration": false,
+        "resolveJsonModule": true,
+        "lib": [
+            "dom",
+            "esnext",
+            "esnext.asynciterable"
+        ]
+    },
+    "files": [
+        "./Application.ts"
+    ],
+    "include": [
+        "./**/*",
+        "./**/*.json"
+    ],
+    "exclude": [
+        "./initial/**/*"
+    ]
+}
